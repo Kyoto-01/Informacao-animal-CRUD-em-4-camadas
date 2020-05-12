@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lbl_animais.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;lbl_classe.Name" xml:space="preserve">
+    <value>lbl_classe</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_descricao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_confirmar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btn_remover.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_nome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_descricao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="txt_classe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="&gt;&gt;lbl_filo.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_cancelar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_remover.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 27</value>
+  </data>
+  <data name="txt_filo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_nome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txt_estado_conserv.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbl_descricao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_habitat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_adicionar.Text" xml:space="preserve">
+    <value>Adicionar Animal</value>
+  </data>
+  <data name="lbl_descricao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="btn_adicionar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_estado_conserv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_nome.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;pic_animal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_classe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_familia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 215</value>
+  </data>
+  <data name="lbl_animais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 74</value>
+  </data>
+  <data name="&gt;&gt;txt_filo.Name" xml:space="preserve">
+    <value>txt_filo</value>
+  </data>
+  <data name="&gt;&gt;btn_adicionar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txt_ordem.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbx_animais.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.75pt</value>
+  </data>
+  <data name="pic_animal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 96</value>
+  </data>
+  <data name="&gt;&gt;lbl_estado_conserv.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_cancelar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 26</value>
+  </data>
+  <data name="lbl_habitat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 251</value>
+  </data>
+  <data name="&gt;&gt;lbl_familia.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_cancelar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 436</value>
+  </data>
+  <data name="lbl_nome.Text" xml:space="preserve">
+    <value>Nome: </value>
+  </data>
+  <data name="&gt;&gt;txt_filo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_descricao.Text" xml:space="preserve">
+    <value>Descrição: </value>
+  </data>
+  <data name="btn_foto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 231</value>
+  </data>
+  <data name="&gt;&gt;btn_remover.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_filo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;pic_animal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_ordem.Text" xml:space="preserve">
+    <value>Ordem: </value>
+  </data>
+  <data name="&gt;&gt;btn_foto.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pic_animal.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;lbx_animais.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_filo.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lbl_classe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="txt_ordem.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_titulo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_nome.Name" xml:space="preserve">
+    <value>lbl_nome</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_remover.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_animais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="lbl_classe.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_nome.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_habitat.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lbl_filo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_editar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_classe.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pic_animal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 160</value>
+  </data>
+  <data name="btn_cancelar.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_adicionar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 327</value>
+  </data>
+  <data name="txt_descricao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 329</value>
+  </data>
+  <data name="&gt;&gt;btn_editar.Name" xml:space="preserve">
+    <value>btn_editar</value>
+  </data>
+  <data name="lbl_ordem.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txt_estado_conserv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="lbl_ordem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_animais.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_titulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 32</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_titulo.Text" xml:space="preserve">
+    <value>INFORMAÇÃO ANIMAL</value>
+  </data>
+  <data name="txt_descricao.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_filo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_habitat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_ordem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 183</value>
+  </data>
+  <data name="&gt;&gt;txt_ordem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_nome.Name" xml:space="preserve">
+    <value>txt_nome</value>
+  </data>
+  <data name="&gt;&gt;lbl_estado_conserv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_classe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 156</value>
+  </data>
+  <data name="lbl_classe.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_descricao.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_habitat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_habitat.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lbl_animais.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_filo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_filo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 126</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbx_animais.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="btn_cancelar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_animais.Text" xml:space="preserve">
+    <value>Animais</value>
+  </data>
+  <data name="&gt;&gt;txt_familia.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btn_foto.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_classe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lbl_estado_conserv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 288</value>
+  </data>
+  <data name="lbx_animais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 96</value>
+  </data>
+  <data name="&gt;&gt;btn_foto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_classe.Name" xml:space="preserve">
+    <value>txt_classe</value>
+  </data>
+  <data name="lbl_titulo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>High Tower Text, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_familia.Name" xml:space="preserve">
+    <value>lbl_familia</value>
+  </data>
+  <data name="txt_habitat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;txt_descricao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_animais.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 12pt, style=Bold</value>
+  </data>
+  <data name="lbl_ordem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 186</value>
+  </data>
+  <data name="txt_classe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 153</value>
+  </data>
+  <data name="lbx_animais.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;lbl_titulo.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="btn_editar.Text" xml:space="preserve">
+    <value>Modo de Edição</value>
+  </data>
+  <data name="lbx_animais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 184</value>
+  </data>
+  <data name="&gt;&gt;lbl_classe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_nome.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_estado_conserv.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txt_familia.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txt_classe.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btn_editar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_confirmar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="txt_filo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="txt_estado_conserv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 285</value>
+  </data>
+  <data name="&gt;&gt;txt_familia.Name" xml:space="preserve">
+    <value>txt_familia</value>
+  </data>
+  <data name="&gt;&gt;lbl_filo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_nome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="txt_familia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="&gt;&gt;lbx_animais.Name" xml:space="preserve">
+    <value>lbx_animais</value>
+  </data>
+  <data name="txt_nome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 93</value>
+  </data>
+  <data name="&gt;&gt;txt_classe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_adicionar.Name" xml:space="preserve">
+    <value>btn_adicionar</value>
+  </data>
+  <data name="btn_confirmar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_ordem.Name" xml:space="preserve">
+    <value>txt_ordem</value>
+  </data>
+  <data name="txt_descricao.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_classe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_descricao.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_familia.Text" xml:space="preserve">
+    <value>Familia: </value>
+  </data>
+  <data name="lbl_habitat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Informação Animal</value>
+  </data>
+  <data name="txt_estado_conserv.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="lbl_ordem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="lbl_nome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lbl_habitat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_classe.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;lbl_nome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_ordem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="lbl_descricao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txt_descricao.Name" xml:space="preserve">
+    <value>txt_descricao</value>
+  </data>
+  <data name="btn_confirmar.Text" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="&gt;&gt;lbl_ordem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_nome.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lbl_estado_conserv.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btn_adicionar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 27</value>
+  </data>
+  <data name="&gt;&gt;txt_filo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_animais.Name" xml:space="preserve">
+    <value>lbl_animais</value>
+  </data>
+  <data name="lbl_estado_conserv.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_ordem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmar.Name" xml:space="preserve">
+    <value>btn_confirmar</value>
+  </data>
+  <data name="lbl_descricao.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_nome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_estado_conserv.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_nome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btn_adicionar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_filo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pic_animal.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btn_cancelar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btn_confirmar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 401</value>
+  </data>
+  <data name="lbl_animais.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_editar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 288</value>
+  </data>
+  <data name="btn_remover.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 365</value>
+  </data>
+  <data name="btn_foto.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_familia.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btn_confirmar.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_ordem.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lbl_habitat.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_remover.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_descricao.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btn_editar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_filo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="txt_classe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="btn_confirmar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="&gt;&gt;btn_adicionar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_familia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 218</value>
+  </data>
+  <data name="lbl_estado_conserv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 13</value>
+  </data>
+  <data name="txt_ordem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_ordem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_titulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_foto.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;txt_habitat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_familia.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lbl_habitat.Text" xml:space="preserve">
+    <value>Habitat: </value>
+  </data>
+  <data name="&gt;&gt;lbl_nome.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.Name" xml:space="preserve">
+    <value>btn_cancelar</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="btn_foto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 25</value>
+  </data>
+  <data name="lbl_classe.Text" xml:space="preserve">
+    <value>Classe: </value>
+  </data>
+  <data name="txt_familia.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="lbl_filo.Text" xml:space="preserve">
+    <value>Filo: </value>
+  </data>
+  <data name="&gt;&gt;lbl_titulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_habitat.Name" xml:space="preserve">
+    <value>lbl_habitat</value>
+  </data>
+  <data name="&gt;&gt;txt_familia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_cancelar.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="&gt;&gt;lbl_ordem.Name" xml:space="preserve">
+    <value>lbl_ordem</value>
+  </data>
+  <data name="lbl_nome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 96</value>
+  </data>
+  <data name="&gt;&gt;txt_descricao.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_estado_conserv.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lbx_animais.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btn_foto.Name" xml:space="preserve">
+    <value>btn_foto</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_estado_conserv.Text" xml:space="preserve">
+    <value>Estado de conservação: </value>
+  </data>
+  <data name="&gt;&gt;lbl_filo.Name" xml:space="preserve">
+    <value>lbl_filo</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>643, 479</value>
+  </data>
+  <data name="lbl_titulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 32</value>
+  </data>
+  <data name="&gt;&gt;txt_estado_conserv.Name" xml:space="preserve">
+    <value>txt_estado_conserv</value>
+  </data>
+  <data name="txt_habitat.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txt_habitat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="&gt;&gt;lbl_familia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_descricao.Name" xml:space="preserve">
+    <value>lbl_descricao</value>
+  </data>
+  <data name="lbl_descricao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 313</value>
+  </data>
+  <data name="&gt;&gt;pic_animal.Name" xml:space="preserve">
+    <value>pic_animal</value>
+  </data>
+  <data name="txt_habitat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 248</value>
+  </data>
+  <data name="btn_editar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 28</value>
+  </data>
+  <data name="pic_animal.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_titulo.Name" xml:space="preserve">
+    <value>lbl_titulo</value>
+  </data>
+  <data name="&gt;&gt;txt_habitat.Name" xml:space="preserve">
+    <value>txt_habitat</value>
+  </data>
+  <data name="&gt;&gt;lbl_habitat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_titulo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbx_animais.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="btn_foto.Text" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="lbl_animais.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_descricao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 116</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_editar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_foto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_familia.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_estado_conserv.Name" xml:space="preserve">
+    <value>lbl_estado_conserv</value>
+  </data>
+  <data name="btn_remover.Text" xml:space="preserve">
+    <value>Remover Animal</value>
+  </data>
+  <data name="lbl_estado_conserv.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_familia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_ordem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txt_familia.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_remover.Name" xml:space="preserve">
+    <value>btn_remover</value>
+  </data>
+  <data name="txt_filo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 123</value>
+  </data>
+  <data name="txt_nome.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_familia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pt-BR</value>
+  </metadata>
+</root>
