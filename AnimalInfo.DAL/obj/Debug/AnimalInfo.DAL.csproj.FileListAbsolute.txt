@@ -1,0 +1,16 @@
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DAL\bin\Debug\AnimalInfo.DAL.dll
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DAL\bin\Debug\AnimalInfo.DAL.pdb
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DAL\obj\Debug\AnimalInfo.DAL.dll
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DAL\obj\Debug\AnimalInfo.DAL.pdb
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DAL\bin\Debug\AnimalInfo.DAL.dll.config
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DAL\bin\Debug\AnimalInfo.DTO.dll
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DAL\bin\Debug\AnimalInfo.DTO.pdb
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DAL\obj\Debug\AnimalInfo.DAL.csprojResolveAssemblyReference.cache
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DAL\bin\Debug\AnimalInfo.DAL.dll.config
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DAL\bin\Debug\AnimalInfo.DAL.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DAL\bin\Debug\AnimalInfo.DAL.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DAL\bin\Debug\AnimalInfo.DTO.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DAL\bin\Debug\AnimalInfo.DTO.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DAL\obj\Debug\AnimalInfo.DAL.csprojResolveAssemblyReference.cache
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DAL\obj\Debug\AnimalInfo.DAL.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DAL\obj\Debug\AnimalInfo.DAL.pdb

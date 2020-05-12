@@ -1,0 +1,10 @@
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DTO\bin\Debug\AnimalInfo.DTO.dll
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DTO\bin\Debug\AnimalInfo.DTO.pdb
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DTO\obj\Debug\AnimalInfo.DTO.dll
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DTO\obj\Debug\AnimalInfo.DTO.pdb
+C:\Users\PC Casa\Desktop\AnimalInfo\AnimalInfo.DTO\obj\Debug\AnimalInfo.DTO.csprojResolveAssemblyReference.cache
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DTO\bin\Debug\AnimalInfo.DTO.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DTO\bin\Debug\AnimalInfo.DTO.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DTO\obj\Debug\AnimalInfo.DTO.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DTO\obj\Debug\AnimalInfo.DTO.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.DTO\obj\Debug\AnimalInfo.DTO.csprojResolveAssemblyReference.cache
