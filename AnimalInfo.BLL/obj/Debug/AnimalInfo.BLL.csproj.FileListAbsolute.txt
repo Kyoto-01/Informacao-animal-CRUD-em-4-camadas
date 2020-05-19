@@ -16,3 +16,12 @@ C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.BLL\bin\Debug\Animal
 C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.BLL\obj\Debug\AnimalInfo.BLL.csprojResolveAssemblyReference.cache
 C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.BLL\obj\Debug\AnimalInfo.BLL.dll
 C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo.BLL\obj\Debug\AnimalInfo.BLL.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo.BLL\bin\Debug\AnimalInfo.BLL.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo.BLL\bin\Debug\AnimalInfo.BLL.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo.BLL\bin\Debug\AnimalInfo.DAL.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo.BLL\bin\Debug\AnimalInfo.DTO.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo.BLL\bin\Debug\AnimalInfo.DAL.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo.BLL\bin\Debug\AnimalInfo.DTO.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo.BLL\obj\Debug\AnimalInfo.BLL.csprojResolveAssemblyReference.cache
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo.BLL\obj\Debug\AnimalInfo.BLL.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo.BLL\obj\Debug\AnimalInfo.BLL.pdb

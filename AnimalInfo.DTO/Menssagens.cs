@@ -10,6 +10,7 @@
         private string animalJaExiste = "Já existe um animal registrado com este nome.";
         private string erroFormatoImagem = "Apenas são aceitos arquivos no formato .JPG ou .PNG!";
         private string descricaoGrandeDemais = "A descrição deve conter no máximo 500 caracteres.";
+        private string addFaltaNomeOuImagem = "Os campos \"Nome\" e \"Foto\" são obrigatórios.";
 
         public string NoSelectEdit { get { return noSelectEdit; } }
         public string NoSelectDelete { get { return noSelectDelete; } }
@@ -18,5 +19,6 @@
         public string AnimalJaExiste { get { return animalJaExiste; } }
         public string ErroFormatoImagem { get { return erroFormatoImagem; } }
         public string DescricaoGrandeDemais { get { return descricaoGrandeDemais; } }
+        public string AddFaltaNomeOuImagem { get { return addFaltaNomeOuImagem; } }
     }
 }
