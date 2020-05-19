@@ -45,9 +45,9 @@ namespace AnimalInfo.DAL
                             }
                         }
                     }
-                    catch (Exception ex)
+                    catch
                     {
-                        throw ex;
+                        throw;
                     }
                     finally
                     {
@@ -72,9 +72,9 @@ namespace AnimalInfo.DAL
             {
                 qtdRegistrosAfetados = SqlCommandNonQuery(update, novosDados);
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
             return qtdRegistrosAfetados;
         }
@@ -91,9 +91,9 @@ namespace AnimalInfo.DAL
             {
                 qtdRegistrosAfetados = SqlCommandNonQuery(insert, animal);
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
             return qtdRegistrosAfetados;
         }
@@ -107,9 +107,9 @@ namespace AnimalInfo.DAL
             {
                 qtdRegistrosAfetados = SqlCommandNonQuery(delete, animalToDelete);
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
             return qtdRegistrosAfetados;
         }

@@ -31,3 +31,21 @@ C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo\obj\x86\Debug\Animal
 C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo\bin\Debug\pt-BR\AnimalInfo.resources.dll
 C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo\obj\x86\Debug\AnimalInfo.Principal.pt-BR.resources
 C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo\AnimalInfo\obj\x86\Debug\pt-BR\AnimalInfo.resources.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\bin\Debug\AnimalInfo.exe.config
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\obj\x86\Debug\AnimalInfo.exe
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\obj\x86\Debug\AnimalInfo.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\bin\Debug\AnimalInfo.exe
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\bin\Debug\AnimalInfo.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\bin\Debug\pt-BR\AnimalInfo.resources.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\bin\Debug\AnimalInfo.BLL.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\bin\Debug\AnimalInfo.DTO.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\bin\Debug\AnimalInfo.DAL.dll
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\bin\Debug\AnimalInfo.BLL.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\bin\Debug\AnimalInfo.DTO.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\bin\Debug\AnimalInfo.DAL.pdb
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\obj\x86\Debug\AnimalInfo.UI.csprojResolveAssemblyReference.cache
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\obj\x86\Debug\AnimalInfo.Principal.resources
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\obj\x86\Debug\AnimalInfo.Properties.Resources.resources
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\obj\x86\Debug\AnimalInfo.Principal.pt-BR.resources
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\obj\x86\Debug\AnimalInfo.UI.csproj.GenerateResource.Cache
+C:\Users\PC Casa\Desktop\FreeCodeCamp\AnimalInfo - Cópia\AnimalInfo\obj\x86\Debug\pt-BR\AnimalInfo.resources.dll

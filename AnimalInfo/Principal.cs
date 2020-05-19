@@ -25,20 +25,19 @@ namespace AnimalInfo
                 this.Icon = new Icon(System.IO.Directory.GetCurrentDirectory() + "\\leopard.ico");
                 SetAnimais();
                 PreencherListBox();
-                // para já deixar o 1° item da lista selecionado:
-                lbx_animais.SelectedIndex = 0;
+                lbx_animais.SelectedIndex = 0; // para já deixar o 1° item da lista selecionado
                 MudarCorDoForm();
             }
             catch(Exception ex)
             {
-                MessageBox.Show(ex.Message, "Erro no carregamento de informações", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Erro no carregamento do programa", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.Close();
             }
         } 
 
         private void SetAnimais()
         {
-           animais = new AnimalInfo_BLL().buscarAnimais();
+            animais = new AnimalInfo_BLL().buscarAnimais();
         }
 
         private void lbx_animais_SelectedIndexChanged(object sender, EventArgs e)
@@ -111,7 +110,7 @@ namespace AnimalInfo
 
         private void btn_confirmar_Click(object sender, EventArgs e)
         {
-            Predicate<Animal> criterios = AnimalJaRegistrado;
+            Predicate<Animal> criterios = AnimalJaExiste;
             Menssagens msgs = new Menssagens();
 
             if (animais.Exists(criterios))
@@ -135,19 +134,9 @@ namespace AnimalInfo
             }
         }
 
-        private bool AnimalJaRegistrado(Animal animal)
+        private bool AnimalJaExiste(Animal animal)
         {
-            // verifica se já existem um animal com o nome da textbox
-            // se sim e o tipo da operação for add ou
-            // se sim e o tipo da operação for edit e além disso,
-            // o nome da figura for diferente do nome da textbox, é sinal que
-            // aquele animal já existe no db e não estou apenas editando um animal
-            // por isso retorna true
-
-            return (animal.nome.ToUpper() == txt_nome.Text.Trim().ToUpper())
-                    && (tipoOperacaoConfirmacao == "add" ||
-                    tipoOperacaoConfirmacao == "edit" && txt_nome.Text.Trim().ToUpper() !=
-                    System.IO.Path.GetFileNameWithoutExtension(pic_animal.ImageLocation).ToUpper());
+            return new AnimalInfo_BLL().VerificarSeAnimalJaRegistrado(animal, txt_nome.Text, tipoOperacaoConfirmacao, pic_animal.ImageLocation);
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)
@@ -201,17 +190,11 @@ namespace AnimalInfo
         {
             int resposta = 0;
             string nomeAnimal = animalObject.nome;
-            if (nomeAnimal != "")
+            
+            resposta = new AnimalInfo_BLL().EditarAnimal(animalObject);
+            if (resposta == -1)
             {
-                if (animalObject.descricao.Length <= 500)
-                {
-                    resposta = new AnimalInfo_BLL().EditarAnimal(animalObject);
-                }
-                else
-                {
-                    resposta = -1;
-                    MessageBox.Show(new Menssagens().DescricaoGrandeDemais, "Descrição muito grande", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                }
+                MessageBox.Show(new Menssagens().DescricaoGrandeDemais, "Descrição muito grande", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             return resposta;
         }
@@ -219,12 +202,17 @@ namespace AnimalInfo
         private int ConfirmacaoAdd(Animal animalObject)
         {
             int resposta = 0;
-           
-            if (animalObject.nome != "" && pic_animal.ImageLocation != "")
+
+            resposta = new AnimalInfo_BLL().AddAnimal(animalObject, pic_animal.ImageLocation);
+            if (resposta == -1)
             {
-               CopiarColarFoto(animalObject.foto);
-               resposta = new AnimalInfo_BLL().AddAnimal(animalObject);
+                MessageBox.Show(new Menssagens().AddFaltaNomeOuImagem);
             }
+            else
+            {
+                CopiarColarFoto(animalObject.foto);
+            }
+
             return resposta;
         }
 
